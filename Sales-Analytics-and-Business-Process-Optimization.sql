@@ -3662,18 +3662,18 @@ ORDER BY total_revenue DESC;
 
 /*
 Результат запроса:
----------------------------------------------------------------------------------
-category_name	|	total_revenue	|	total_orders	|	avg_revenue_per_order
----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+category_name		|	total_revenue	|	total_orders	|	avg_revenue_per_order
+----------------------------------------------------------------------------------------------------------------
 Beverages		|	267868.18		|	354				|	756.69
-Dairy Products	|	234507.28		|	303				|	773.95
+Dairy Products		|	234507.28		|	303				|	773.95
 Confections		|	167357.23		|	295				|	567.31
-Meat/Poultry	|	163022.36		|	161				|	1012.56
+Meat/Poultry		|	163022.36		|	161				|	1012.56
 Seafood			|	131261.74		|	291				|	451.07
 Condiments		|	106047.08		|	193				|	549.47
 Produce			|	99984.58		|	129				|	775.07
-Grains/Cereals	|	95744.59		|	182				|	526.07
----------------------------------------------------------------------------------
+Grains/Cereals		|	95744.59		|	182				|	526.07
+----------------------------------------------------------------------------------------------------------------
 
 -- Выводы по 1-заданию:
 
@@ -3703,9 +3703,9 @@ ORDER BY monthly_revenue DESC;
 
 /*
 Результат запроса:
---------------------------------------------
-month	|	monthly_revenue |   order_count
---------------------------------------------
+-----------------------------------------------------------
+month		|	monthly_revenue |   order_count
+-----------------------------------------------------------
 4		|	176831.63		|	105
 1		|	155480.18		|	88
 3		|	143401.38		|	103
@@ -3718,7 +3718,7 @@ month	|	monthly_revenue |   order_count
 8		|	72772.94		|	58
 5		|	72114.92		|	46
 6		|	36362.8			|	30
---------------------------------------------
+-----------------------------------------------------------
 
 -- Выводы по 2-заданию:
 
@@ -3758,19 +3758,19 @@ ORDER BY performance_rank;
 
 /*
 Результат запроса:
-----------------------------------------------------------------------------------------------------------------------------------
-employee_name		|  total_orders |	total_sales	|	avg_order_value | unique_customers  | avg_days_to_ship  | performance_rank
-----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+employee_name		|  total_orders 		|	total_sales	|	avg_order_value 	| unique_customers  			| avg_days_to_ship  		| performance_rank
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Margaret Peacock	|	151			|	225763.7	|	1495.12			|	75				|	8.6235			|	1
 Janet Leverling		|	127			|	202812.84	|	1596.95			|	63				|	8.5296			|	2
 Nancy Davolio		|	120			|	187277.38	|	1560.64			|	65				|	7.4968			|	3
 Andrew Fuller		|	93			|	162769.78	|	1750.21			|	58				|	8.2457			|	4
 Laura Callahan		|	100			|	123842.68	|	1238.43			|	55				|	8.6200			|	5
-Robert King			|	69			|	119619.25	|	1733.61			|	45				|	8.2807			|	6
+Robert King		|	69			|	119619.25	|	1733.61			|	45				|	8.2807			|	6
 Anne Dodsworth		|	42			|	76450.07	|	1820.24			|	29				|	10.3942			|	7
 Michael Suyama		|	65			|	72527.63	|	1115.81			|	42				|	8.5427			|	8
 Steven Buchanan		|	42			|	68792.28	|	1637.91			|	29				|	6.7521			|	9
-----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Выводы по 3-заданию:
 
@@ -3821,25 +3821,25 @@ ORDER BY order_count DESC, total_spent DESC;
 
 /*
 Результат запроса:
----------------------------------------------------------------------------------------------------------------
-company_name					|	contact_name		    | order_count  	|	total_spent	|	avg_order_value
----------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+company_name					|	contact_name		   	 | order_count  		|	total_spent	|	avg_order_value
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Save-a-lot Markets				|	Jose Pavarotti			|	31		   	|	104361.95	|	3366.51
 Ernst Handel					|	Roland Mendel			|	30			|	104874.98	|	3495.83
-QUICK-Stop						|	Horst Kloss				|	28			|	110277.31	|	3938.48
-Hungry Owl All-Night Grocers	|	Patricia McKenna		|	19			|	49979.91	|	2630.52
+QUICK-Stop					|	Horst Kloss			|	28			|	110277.31	|	3938.48
+Hungry Owl All-Night Grocers			|	Patricia McKenna		|	19			|	49979.91	|	2630.52
 Folk och fä HB					|	Maria Larsson			|	19			|	29567.56	|	1556.19
-Rattlesnake Canyon Grocery		|	Paula Wilson			|	18			|	51097.8		|	2838.77
+Rattlesnake Canyon Grocery			|	Paula Wilson			|	18			|	51097.8		|	2838.77
 Berglunds snabbköp				|	Christina Berglund		|	18			|	24927.58	|	1384.87
 HILARION-Abastos				|	Carlos Hernández		|	18			|	22768.76	|	1264.93
-Bon app'						|	Laurence Lebihan		|	17			|	21963.25	|	1291.96
+Bon app'					|	Laurence Lebihan		|	17			|	21963.25	|	1291.96
 Frankenversand					|	Peter Franken			|	15			|	26656.56	|	1777.1
 Lehmanns Marktstand				|	Renate Messner			|	15			|	19261.41	|	1284.09
 Wartian Herkku					|	Pirkko Koskitalo		|	15			|	15648.7		|	1043.25
 Hanari Carnes					|	Mario Pontes			|	14			|	32841.37	|	2345.81
 Königlich Essen					|	Philip Cramer			|	14			|	30908.38	|	2207.74
-White Clover Markets			|	Karl Jablonski			|	14			|	27363.6		|	1954.54
-Bottom-Dollar Markets			|	Elizabeth Lincoln		|	14			|	20801.6		|	1485.83
+White Clover Markets				|	Karl Jablonski			|	14			|	27363.6		|	1954.54
+Bottom-Dollar Markets				|	Elizabeth Lincoln		|	14			|	20801.6		|	1485.83
 LILA-Supermercado				|	Carlos González			|	14			|	16076.6		|	1148.33
 La maison d'Asie				|	Annette Roulet			|	14			|	9328.2		|	666.3
 Mère Paillarde					|	Jean Fresnière			|	13			|	28872.19	|	2220.94
@@ -3848,22 +3848,22 @@ Around the Horn					|	Thomas Hardy			|	13			|	13390.65	|	1030.05
 Suprêmes délices				|	Pascale Cartrain		|	12			|	24088.78	|	2007.4
 LINO-Delicateses				|	Felipe Izquierdo		|	12			|	16476.56	|	1373.05
 Reggiani Caseifici				|	Maurizio Moroni			|	12			|	7048.24		|	587.35
-Blondesddsl père et fils		|	Frédérique Citeaux		|	11			|	18534.08	|	1684.92
-Great Lakes Food Market			|	Howard Snyder			|	11			|	18507.45	|	1682.5
-Vaffeljernet					|	Palle Ibsen				|	11			|	15843.92	|	1440.36
+Blondesddsl père et fils			|	Frédérique Citeaux		|	11			|	18534.08	|	1684.92
+Great Lakes Food Market				|	Howard Snyder			|	11			|	18507.45	|	1682.5
+Vaffeljernet					|	Palle Ibsen			|	11			|	15843.92	|	1440.36
 Ricardo Adocicados				|	Janete Limeira			|	11			|	12450.8		|	1131.89
-Piccolo und mehr				|	Georg Pipps				|	10			|	23128.86	|	2312.89
+Piccolo und mehr				|	Georg Pipps			|	10			|	23128.86	|	2312.89
 Richter Supermarkt				|	Michael Holz			|	10			|	19343.78	|	1934.38
-Old World Delicatessen			|	Rene Phillips			|	10			|	15177.46	|	1517.75
+Old World Delicatessen				|	Rene Phillips			|	10			|	15177.46	|	1517.75
 Ottilies Käseladen				|	Henriette Pfalzheim		|	10			|	12496.2		|	1249.62
 Godos Cocina Típica				|	José Pedro Freyre		|	10			|	11446.36	|	1144.64
-Tortuga Restaurante				|	Miguel Angel Paolino	|	10			|	10812.15	|	1081.21
-Die Wandernde Kuh				|	Rita Müller				|	10			|	9588.42		|	958.84
-Victuailles en stock			|	Mary Saveley			|	10			|	9182.43		|	918.24
-Magazzini Alimentari Riuniti	|	Giovanni Rovelli		|	10			|	7176.21		|	717.62
+Tortuga Restaurante				|	Miguel Angel Paolino		|	10			|	10812.15	|	1081.21
+Die Wandernde Kuh				|	Rita Müller			|	10			|	9588.42		|	958.84
+Victuailles en stock				|	Mary Saveley			|	10			|	9182.43		|	918.24
+Magazzini Alimentari Riuniti			|	Giovanni Rovelli		|	10			|	7176.21		|	717.62
 Island Trading					|	Helen Bennett			|	10			|	6146.3		|	614.63
 B's Beverages					|	Victoria Ashworth		|	10			|	6089.9		|	608.99
----------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Выводы по 4-заданию:
 
@@ -3895,15 +3895,15 @@ ORDER BY total_revenue DESC;
 
 /*
 Результат запроса:
------------------------------------------------------------------------------------------------
-ship_country	|	total_orders |  unique_customers	|	total_revenue	|	avg_order_value
------------------------------------------------------------------------------------------------
-USA				|	122		 	 |	13					|	245584.61		|	2012.99
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ship_country		|	total_orders 		 |  unique_customers				|	total_revenue		|	avg_order_value
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+USA			|	122		 	 |	13					|	245584.61		|	2012.99
 Germany			|	122			 |	11					|	230284.63		|	1887.58
 Austria			|	40			 |	2					|	128003.84		|	3200.1
 Brazil			|	83			 |	9					|	106925.78		|	1288.26
 France			|	77			 |	10					|	81358.32		|	1056.6
-UK				|	56			 |	7					|	58971.31		|	1053.06
+UK			|	56			 |	7					|	58971.31		|	1053.06
 Venezuela		|	46			 |	4					|	56810.63		|	1235.01
 Sweden			|	37			 |	2					|	54495.14		|	1472.84
 Canada			|	30			 |	3					|	50196.29		|	1673.21
@@ -3919,7 +3919,7 @@ Portugal		|	13			 |	2					|	11472.36		|	882.49
 Argentina		|	16			 |	3					|	8119.1			|	507.44
 Norway			|	6			 |	1					|	5735.15			|	955.86
 Poland			|	7			 |	1					|	3531.95			|	504.56
------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Выводы по 5-заданию:
 
@@ -3968,87 +3968,87 @@ ORDER BY
 
 /*
 Результат запроса:
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-product_id  |	product_name				    |  base_price	|   avg_selling_price	|  total_quantity_sold	|	total_revenue	|	profit_margin_percentage
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	15		| Genen Shouyu						|	13			|	14.47				|	122					|	1784.82			|		12.54
-	22		| Gustaf's Knäckebröd				|	21			|	20.4				|	348					|	7122.36			|		-2.54
-	7		| Uncle Bob's Organic Dried Pears	|	30			|	29.11				|	747					|	21588.3			|		-3.67
-	6		| Grandma's Boysenberry Spread		|	25			|	24					|	280					|	6737.5			|		-3.75
-	27		| Schoggi Schokolade				|	43.9		|	40.97				|	365					|	15099.88		|		-5.76
-	12		| Queso Manchego La Pastora			|	38			|	36.83				|	342					|	12185.46		|		-6.24
-	3		| Aniseed Syrup						|	10			|	9.45				|	324					|	3004			|		-7.28
-	13		| Konbu								|	6			|	5.74				|	847					|	4699.44			|		-7.53
-	52		| Filo Mix							|	7			|	6.75				|	498					|	3218.95			|		-7.66
-	67		| Laughing Lumberjack Lager			|	14			|	13.69				|	164					|	2116.8			|		-7.8
-	75		| Rhönbräu Klosterbier				|	7.75		|	7.37				|	1151				|	8146.49			|		-8.67
-	41		| Jack's New England Clam Chowder	|	9.65		|	9.17				|	938					|	8265.39			|		-8.69
-	73		| Röd Kaviar						|	15			|	14.31				|	291					|	3967.5			|		-9.11
-	10		| Ikura								|	31			|	29.64				|	741					|	20836.34		|		-9.29
-	45		| Rogede sild						|	9.5			|	9.23				|	508					|	4338.17			|		-10.11
-	57		| Ravioli Angelo					|	19.5		|	18.08				|	406					|	7115.55			|		-10.12
-	46		| Spegesild							|	12			|	11					|	512					|	5505.72			|		-10.39
-	21		| Sir Rodney's Scones				|	10			|	9.35				|	993					|	8874			|		-10.63
-	77		| Original Frankfurter grüne Soße	|	13			|	12.06				|	761					|	8836.23			|		-10.68
-	76		| Lakkalikööri						|	18			|	16.96				|	979					|	15729.84		|		-10.74
-	50		| Valkoinen suklaa					|	16.25		|	14.81				|	213					|	3080.19			|		-11.01
-	20		| Sir Rodney's Marmalade			|	81			|	75.6				|	312					|	22485.6			|		-11.03
-	24		| Guaraná Fantástica				|	4.5			|	4.22				|	1095				|	4378.36			|		-11.14
-	72		| Mozzarella di Giovanni			|	34.8		|	32.04				|	806					|	24900.13		|		-11.23
-	51		| Manjimup Dried Apples				|	53			|	50.49				|	862					|	40547.65		|		-11.25
-	56		| Gnocchi di nonna Alice			|	38			|	35.42				|	1263				|	42593.06		|		-11.25
-	34		| Sasquatch Ale						|	14			|	12.91				|	416					|	5153.4			|		-11.51
-	62		| Tarte au sucre					|	49.3		|	46.41				|	1083				|	47234.97		|		-11.53
-	65		| Louisiana Fiery Hot Pepper Sauce	|	21.05		|	19.46				|	745					|	13869.89		|		-11.56
-	32		| Mascarpone Fabioli				|	32			|	30.63				|	296					|	8372.16			|		-11.61
-	43		| Ipoh Coffee						|	46			|	42.93				|	544					|	22119.1			|		-11.61
-	19		| Teatime Chocolate Biscuits		|	9.2			|	8.51				|	713					|	5793.62			|		-11.68
-	40		| Boston Crab Meat					|	18.4		|	17.23				|	1103				|	17910.63		|		-11.75
-	23		| Tunnbröd							|	9			|	8.34				|	578					|	4583.7			|		-11.89
-	36		| Inlagd Sill						|	19			|	17.9				|	805					|	13458.46		|		-12.01
-	42		| Singaporean Hokkien Fried Mee		|	14			|	13.21				|	697					|	8575			|		-12.12
-	49		| Maxilaku							|	20			|	18.32				|	458					|	8004.6			|		-12.61
-	68		| Scottish Longbreads				|	12.5		|	11.54				|	799					|	8714			|		-12.75
-	70		| Outback Lager						|	15			|	14.13				|	805					|	10528.65		|		-12.81
-	29		| Thüringer Rostbratwurst			|	123.79		|	116.04				|	746					|	80368.67		|		-12.97
-	53		| Perth Pasties						|	32.8		|	30.07				|	712					|	20311.77		|		-13.03
-	64		| Wimmers gute Semmelknödel			|	33.25		|	30.88				|	608					|	17570.96		|		-13.08
-	33		| Geitost							|	2.5			|	2.32				|	730					|	1585.62			|		-13.12
-	11		| Queso Cabrales					|	21			|	19.56				|	696					|	12691.77		|		-13.17
-	28		| Rössle Sauerkraut					|	45.6		|	41.61				|	542					|	21442.16		|		-13.24
-	60		| Camembert Pierrot					|	34			|	31.97				|	1504				|	44347.56		|		-13.28
-	18		| Carnarvon Tigers					|	62.5		|	59.72				|	539					|	29171.87		|		-13.4
-	59		| Raclette Courdavault				|	55			|	51.13				|	1496				|	71155.7			|		-13.52
-	38		| Côte de Blaye						|	263.5		|	245.93				|	623					|	141396.74		|		-13.87
-	39		| Chartreuse verte					|	18			|	16.63				|	791					|	12260.34		|		-13.89
-	4		| Chef Anton's Cajun Seasoning		|	22			|	20.61				|	452					|	8545.9			|		-14.06
-	47		| Zaanse koeken						|	9.5			|	9.14				|	485					|	3958.08			|		-14.09
-	1		| Chai								|	18			|	17.12				|	788					|	12176.1			|		-14.16
-	8		| Northwoods Cranberry Sauce		|	40			|	38.67				|	370					|	12700			|		-14.19
-	71		| Flotemysost						|	21.5		|	19.72				|	1036				|	19099.53		|		-14.25
-	14		| Tofu								|	23.25		|	21.16				|	383					|	7620.19			|		-14.43
-	17		| Alice Mutton						|	39			|	36.4				|	966					|	32230.38		|		-14.45
-	63		| Vegie-spread						|	43.9		|	40.79				|	445					|	16701.1			|		-14.51
-	35		| Steeleye Stout					|	18			|	16.97				|	859					|	13212			|		-14.55
-	69		| Gudbrandsdalsost					|	36			|	33.45				|	714					|	21942.36		|		-14.63
-	31		| Gorgonzola Telino					|	12.5		|	11.65				|	1377				|	14670.87		|		-14.77
-	16		| Pavlova							|	17.45		|	16.3				|	1112				|	16504.86		|		-14.94
-	44		| Gula Malacca						|	19.45		|	18.13				|	601					|	9915.95			|		-15.17
-	30		| Nord-Ost Matjeshering				|	25.89		|	24.22				|	608					|	13346.53		|		-15.21
-	26		| Gumbär Gummibärchen				|	31.23		|	28.86				|	753					|	19849.14		|		-15.59
-	54		| Tourtière							|	7.45		|	6.79				|	735					|	4616.49			|		-15.69
-	5		| Chef Anton's Gumbo Mix			|	21.35		|	19.61				|	298					|	5347.2			|		-15.95
-	61		| Sirop d'érable					|	28.5		|	27.76				|	599					|	14238.6			|		-16.59
-	25		| NuNuCa Nuß-Nougat-Creme			|	14			|	13.07				|	318					|	3704.4			|		-16.79
-	66		| Louisiana Hot Spiced Okra			|	17			|	15.06				|	238					|	3366			|		-16.81
-	58		| Escargots de Bourgogne			|	13.25		|	12.66				|	534					|	5881.68			|		-16.87
-	37		| Gravad lax						|	26			|	23.4				|	125					|	2688.4			|		-17.28
-	74		| Longlife Tofu						|	10			|	8.77				|	297					|	2432.5			|		-18.1
-	2		| Chang								|	19			|	17.76				|	995					|	15354.66		|		-18.78
-	55		| Pâté chinois						|	24			|	22.35				|	901					|	17378.4			|		-19.63
-	9		| Mishi Kobe Niku					|	97			|	93.12				|	95					|	7226.5			|		-21.58
-	48		| Chocolade							|	12.75		|	11.9				|	138					|	1368.71			|		-22.21
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+product_id  	| product_name				|  base_price		|   avg_selling_price			|  total_quantity_sold				|	total_revenue		|	profit_margin_percentage
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	15	| Genen Shouyu				|	13		|	14.47				|	122					|	1784.82			|		12.54
+	22	| Gustaf's Knäckebröd			|	21		|	20.4				|	348					|	7122.36			|		-2.54
+	7	| Uncle Bob's Organic Dried Pears	|	30		|	29.11				|	747					|	21588.3			|		-3.67
+	6	| Grandma's Boysenberry Spread		|	25		|	24				|	280					|	6737.5			|		-3.75
+	27	| Schoggi Schokolade			|	43.9		|	40.97				|	365					|	15099.88		|		-5.76
+	12	| Queso Manchego La Pastora		|	38		|	36.83				|	342					|	12185.46		|		-6.24
+	3	| Aniseed Syrup				|	10		|	9.45				|	324					|	3004			|		-7.28
+	13	| Konbu					|	6		|	5.74				|	847					|	4699.44			|		-7.53
+	52	| Filo Mix				|	7		|	6.75				|	498					|	3218.95			|		-7.66
+	67	| Laughing Lumberjack Lager		|	14		|	13.69				|	164					|	2116.8			|		-7.8
+	75	| Rhönbräu Klosterbier			|	7.75		|	7.37				|	1151					|	8146.49			|		-8.67
+	41	| Jack's New England Clam Chowder	|	9.65		|	9.17				|	938					|	8265.39			|		-8.69
+	73	| Röd Kaviar				|	15		|	14.31				|	291					|	3967.5			|		-9.11
+	10	| Ikura					|	31		|	29.64				|	741					|	20836.34		|		-9.29
+	45	| Rogede sild				|	9.5		|	9.23				|	508					|	4338.17			|		-10.11
+	57	| Ravioli Angelo			|	19.5		|	18.08				|	406					|	7115.55			|		-10.12
+	46	| Spegesild				|	12		|	11				|	512					|	5505.72			|		-10.39
+	21	| Sir Rodney's Scones			|	10		|	9.35				|	993					|	8874			|		-10.63
+	77	| Original Frankfurter grüne Soße	|	13		|	12.06				|	761					|	8836.23			|		-10.68
+	76	| Lakkalikööri				|	18		|	16.96				|	979					|	15729.84		|		-10.74
+	50	| Valkoinen suklaa			|	16.25		|	14.81				|	213					|	3080.19			|		-11.01
+	20	| Sir Rodney's Marmalade		|	81		|	75.6				|	312					|	22485.6			|		-11.03
+	24	| Guaraná Fantástica			|	4.5		|	4.22				|	1095					|	4378.36			|		-11.14
+	72	| Mozzarella di Giovanni		|	34.8		|	32.04				|	806					|	24900.13		|		-11.23
+	51	| Manjimup Dried Apples			|	53		|	50.49				|	862					|	40547.65		|		-11.25
+	56	| Gnocchi di nonna Alice		|	38		|	35.42				|	1263					|	42593.06		|		-11.25
+	34	| Sasquatch Ale				|	14		|	12.91				|	416					|	5153.4			|		-11.51
+	62	| Tarte au sucre			|	49.3		|	46.41				|	1083					|	47234.97		|		-11.53
+	65	| Louisiana Fiery Hot Pepper Sauce	|	21.05		|	19.46				|	745					|	13869.89		|		-11.56
+	32	| Mascarpone Fabioli			|	32		|	30.63				|	296					|	8372.16			|		-11.61
+	43	| Ipoh Coffee				|	46		|	42.93				|	544					|	22119.1			|		-11.61
+	19	| Teatime Chocolate Biscuits		|	9.2		|	8.51				|	713					|	5793.62			|		-11.68
+	40	| Boston Crab Meat			|	18.4		|	17.23				|	1103					|	17910.63		|		-11.75
+	23	| Tunnbröd				|	9		|	8.34				|	578					|	4583.7			|		-11.89
+	36	| Inlagd Sill				|	19		|	17.9				|	805					|	13458.46		|		-12.01
+	42	| Singaporean Hokkien Fried Mee		|	14		|	13.21				|	697					|	8575			|		-12.12
+	49	| Maxilaku				|	20		|	18.32				|	458					|	8004.6			|		-12.61
+	68	| Scottish Longbreads			|	12.5		|	11.54				|	799					|	8714			|		-12.75
+	70	| Outback Lager				|	15		|	14.13				|	805					|	10528.65		|		-12.81
+	29	| Thüringer Rostbratwurst		|	123.79		|	116.04				|	746					|	80368.67		|		-12.97
+	53	| Perth Pasties				|	32.8		|	30.07				|	712					|	20311.77		|		-13.03
+	64	| Wimmers gute Semmelknödel		|	33.25		|	30.88				|	608					|	17570.96		|		-13.08
+	33	| Geitost				|	2.5		|	2.32				|	730					|	1585.62			|		-13.12
+	11	| Queso Cabrales			|	21		|	19.56				|	696					|	12691.77		|		-13.17
+	28	| Rössle Sauerkraut			|	45.6		|	41.61				|	542					|	21442.16		|		-13.24
+	60	| Camembert Pierrot			|	34		|	31.97				|	1504					|	44347.56		|		-13.28
+	18	| Carnarvon Tigers			|	62.5		|	59.72				|	539					|	29171.87		|		-13.4
+	59	| Raclette Courdavault			|	55		|	51.13				|	1496					|	71155.7			|		-13.52
+	38	| Côte de Blaye				|	263.5		|	245.93				|	623					|	141396.74		|		-13.87
+	39	| Chartreuse verte			|	18		|	16.63				|	791					|	12260.34		|		-13.89
+	4	| Chef Anton's Cajun Seasoning		|	22		|	20.61				|	452					|	8545.9			|		-14.06
+	47	| Zaanse koeken				|	9.5		|	9.14				|	485					|	3958.08			|		-14.09
+	1	| Chai					|	18		|	17.12				|	788					|	12176.1			|		-14.16
+	8	| Northwoods Cranberry Sauce		|	40		|	38.67				|	370					|	12700			|		-14.19
+	71	| Flotemysost				|	21.5		|	19.72				|	1036					|	19099.53		|		-14.25
+	14	| Tofu					|	23.25		|	21.16				|	383					|	7620.19			|		-14.43
+	17	| Alice Mutton				|	39		|	36.4				|	966					|	32230.38		|		-14.45
+	63	| Vegie-spread				|	43.9		|	40.79				|	445					|	16701.1			|		-14.51
+	35	| Steeleye Stout			|	18		|	16.97				|	859					|	13212			|		-14.55
+	69	| Gudbrandsdalsost			|	36		|	33.45				|	714					|	21942.36		|		-14.63
+	31	| Gorgonzola Telino			|	12.5		|	11.65				|	1377					|	14670.87		|		-14.77
+	16	| Pavlova				|	17.45		|	16.3				|	1112					|	16504.86		|		-14.94
+	44	| Gula Malacca				|	19.45		|	18.13				|	601					|	9915.95			|		-15.17
+	30	| Nord-Ost Matjeshering			|	25.89		|	24.22				|	608					|	13346.53		|		-15.21
+	26	| Gumbär Gummibärchen			|	31.23		|	28.86				|	753					|	19849.14		|		-15.59
+	54	| Tourtière				|	7.45		|	6.79				|	735					|	4616.49			|		-15.69
+	5	| Chef Anton's Gumbo Mix		|	21.35		|	19.61				|	298					|	5347.2			|		-15.95
+	61	| Sirop d'érable			|	28.5		|	27.76				|	599					|	14238.6			|		-16.59
+	25	| NuNuCa Nuß-Nougat-Creme		|	14		|	13.07				|	318					|	3704.4			|		-16.79
+	66	| Louisiana Hot Spiced Okra		|	17		|	15.06				|	238					|	3366			|		-16.81
+	58	| Escargots de Bourgogne		|	13.25		|	12.66				|	534					|	5881.68			|		-16.87
+	37	| Gravad lax				|	26		|	23.4				|	125					|	2688.4			|		-17.28
+	74	| Longlife Tofu				|	10		|	8.77				|	297					|	2432.5			|		-18.1
+	2	| Chang					|	19		|	17.76				|	995					|	15354.66		|		-18.78
+	55	| Pâté chinois				|	24		|	22.35				|	901					|	17378.4			|		-19.63
+	9	| Mishi Kobe Niku			|	97		|	93.12				|	95					|	7226.5			|		-21.58
+	48	| Chocolade				|	12.75		|	11.9				|	138					|	1368.71			|		-22.21
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Выводы по 6-заданию:
 
@@ -4080,77 +4080,77 @@ ORDER BY months_of_stock;
 
 /*
 Результат запроса:
-----------------------------------------------------------------------------------------------------------------------------------
-product_name					|  units_in_stock	|	total_sold	|	number_of_orders  |  avg_monthly_sales  |  months_of_stock
-----------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+product_name					|  units_in_stock			|	total_sold	|	number_of_orders  		  |  avg_monthly_sales  		|  months_of_stock
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Gorgonzola Telino				|	0				|	1397		|		51			  |  63.12				|	0.00
 Sir Rodney's Scones				|	3				|	1016		|		39			  |	46.89				|	0.06
-Scottish Longbreads				|	6				|	799			|		34			  |	38.91				|	0.15
-Rogede sild						|	5				|	508			|		14			  |	32.02				|	0.16
+Scottish Longbreads				|	6				|	799		|		34			  |	38.91				|	0.15
+Rogede sild					|	5				|	508		|		14			  |	32.02				|	0.16
 Camembert Pierrot				|	19				|	1577		|		51			  |	71.04				|	0.27
-Longlife Tofu					|	4				|	297			|		13			  |	14.12				|	0.28
-Northwoods Cranberry Sauce		|	6				|	372			|		13			  |	20.25				|	0.30
-Louisiana Hot Spiced Okra		|	4				|	239			|		8			  |	11.87				|	0.34
+Longlife Tofu					|	4				|	297		|		13			  |	14.12				|	0.28
+Northwoods Cranberry Sauce			|	6				|	372		|		13			  |	20.25				|	0.30
+Louisiana Hot Spiced Okra			|	4				|	239		|		8			  |	11.87				|	0.34
 Tarte au sucre					|	17				|	1083		|		48			  |	50.53				|	0.34
-Nord-Ost Matjeshering			|	10				|	612			|		32			  |	28.38				|	0.35
-Gnocchi di nonna Alice			|	21				|	1263		|		50			  |	59.86				|	0.35
-Gumbär Gummibärchen				|	15				|	753			|		32			  |	41.37				|	0.36
-Mozzarella di Giovanni			|	14				|	806			|		38			  |	37.26				|	0.38
-Outback Lager					|	15				|	817			|		39			  |	37.71				|	0.40
-Maxilaku						|	10				|	520			|		21			  |	24.00				|	0.42
-Uncle Bob's Organic Dried Pears	|	15				|	763			|		29			  |	35.05				|	0.43
-Steeleye Stout					|	20				|	883			|		36			  |	41.20				|	0.49
-Côte de Blaye					|	17				|	623			|		24			  |	34.04				|	0.50
-Manjimup Dried Apples			|	20				|	886			|		39			  |	40.15				|	0.50
-Flotemysost						|	26				|	1057		|		42			  |	50.90				|	0.51
-Pavlova							|	29				|	1158		|		43			  |	52.40				|	0.55
-Konbu							|	24				|	891			|		40			  |	42.03				|	0.57
-Tourtière						|	21				|	755			|		36			  |	36.77				|	0.57
-Wimmers gute Semmelknödel		|	22				|	740			|		30			  |	35.92				|	0.61
-Ipoh Coffee						|	17				|	580			|		28			  |	27.15				|	0.63
-Mascarpone Fabioli				|	9				|	297			|		15			  |	13.54				|	0.66
-Queso Cabrales					|	22				|	706			|		38			  |	31.61				|	0.70
-Gudbrandsdalsost				|	26				|	714			|		31			  |	36.24				|	0.72
-Teatime Chocolate Biscuits		|	25				|	723			|		37			  |	34.43				|	0.73
-Aniseed Syrup					|	13				|	328			|		12			  |	15.92				|	0.82
-Ikura							|	31				|	742			|		33			  |	34.84				|	0.89
-Original Frankfurter grüne Soße	|	32				|	791			|		38			  |	35.95				|	0.89
-Gula Malacca					|	27				|	601			|		24			  |	29.17				|	0.93
-Vegie-spread					|	24				|	445			|		17			  |	21.60				|	1.11
-Raclette Courdavault			|	79				|	1496		|		54			  |	69.37				|	1.14
-Lakkalikööri					|	57				|	981			|		39			  |	45.56				|	1.25
-Zaanse koeken					|	36				|	485			|		21			  |	27.71				|	1.30
-Chocolade						|	15				|	138			|		6			  |	11.28				|	1.33
-Filo Mix						|	38				|	500			|		29			  |	25.91				|	1.47
-Carnarvon Tigers				|	42				|	539			|		27			  |	26.68				|	1.57
-Gravad lax						|	11				|	125			|		6			  |	6.15				|	1.79
-Ravioli Angelo					|	36				|	434			|		23			  |	19.76				|	1.82
-Tofu							|	35				|	404			|		22			  |	18.09				|	1.93
-Jack's New England Clam Chowder	|	85				|	981			|		47			  |	44.12				|	1.93
-Chartreuse verte				|	69				|	793			|		30			  |	35.77				|	1.93
-Tunnbröd						|	61				|	580			|		20			  |	31.13				|	1.96
-Escargots de Bourgogne			|	62				|	534			|		18			  |	28.56				|	2.17
-Louisiana Fiery Hot Pepper Sauce|	76				|	745			|		32			  |	34.60				|	2.20
-Rhönbräu Klosterbier			|	125				|	1155		|		46			  |	55.00				|	2.27
-Chef Anton's Cajun Seasoning	|	53				|	453			|		20			  |	22.88				|	2.32
+Nord-Ost Matjeshering				|	10				|	612		|		32			  |	28.38				|	0.35
+Gnocchi di nonna Alice				|	21				|	1263		|		50			  |	59.86				|	0.35
+Gumbär Gummibärchen				|	15				|	753		|		32			  |	41.37				|	0.36
+Mozzarella di Giovanni				|	14				|	806		|		38			  |	37.26				|	0.38
+Outback Lager					|	15				|	817		|		39			  |	37.71				|	0.40
+Maxilaku					|	10				|	520		|		21			  |	24.00				|	0.42
+Uncle Bob's Organic Dried Pears			|	15				|	763		|		29			  |	35.05				|	0.43
+Steeleye Stout					|	20				|	883		|		36			  |	41.20				|	0.49
+Côte de Blaye					|	17				|	623		|		24			  |	34.04				|	0.50
+Manjimup Dried Apples				|	20				|	886		|		39			  |	40.15				|	0.50
+Flotemysost					|	26				|	1057		|		42			  |	50.90				|	0.51
+Pavlova						|	29				|	1158		|		43			  |	52.40				|	0.55
+Konbu						|	24				|	891		|		40			  |	42.03				|	0.57
+Tourtière					|	21				|	755		|		36			  |	36.77				|	0.57
+Wimmers gute Semmelknödel			|	22				|	740		|		30			  |	35.92				|	0.61
+Ipoh Coffee					|	17				|	580		|		28			  |	27.15				|	0.63
+Mascarpone Fabioli				|	9				|	297		|		15			  |	13.54				|	0.66
+Queso Cabrales					|	22				|	706		|		38			  |	31.61				|	0.70
+Gudbrandsdalsost				|	26				|	714		|		31			  |	36.24				|	0.72
+Teatime Chocolate Biscuits			|	25				|	723		|		37			  |	34.43				|	0.73
+Aniseed Syrup					|	13				|	328		|		12			  |	15.92				|	0.82
+Ikura						|	31				|	742		|		33			  |	34.84				|	0.89
+Original Frankfurter grüne Soße			|	32				|	791		|		38			  |	35.95				|	0.89
+Gula Malacca					|	27				|	601		|		24			  |	29.17				|	0.93
+Vegie-spread					|	24				|	445		|		17			  |	21.60				|	1.11
+Raclette Courdavault				|	79				|	1496		|		54			  |	69.37				|	1.14
+Lakkalikööri					|	57				|	981		|		39			  |	45.56				|	1.25
+Zaanse koeken					|	36				|	485		|		21			  |	27.71				|	1.30
+Chocolade					|	15				|	138		|		6			  |	11.28				|	1.33
+Filo Mix					|	38				|	500		|		29			  |	25.91				|	1.47
+Carnarvon Tigers				|	42				|	539		|		27			  |	26.68				|	1.57
+Gravad lax					|	11				|	125		|		6			  |	6.15				|	1.79
+Ravioli Angelo					|	36				|	434		|		23			  |	19.76				|	1.82
+Tofu						|	35				|	404		|		22			  |	18.09				|	1.93
+Jack's New England Clam Chowder			|	85				|	981		|		47			  |	44.12				|	1.93
+Chartreuse verte				|	69				|	793		|		30			  |	35.77				|	1.93
+Tunnbröd					|	61				|	580		|		20			  |	31.13				|	1.96
+Escargots de Bourgogne				|	62				|	534		|		18			  |	28.56				|	2.17
+Louisiana Fiery Hot Pepper Sauce		|	76				|	745		|		32			  |	34.60				|	2.20
+Rhönbräu Klosterbier				|	125				|	1155		|		46			  |	55.00				|	2.27
+Chef Anton's Cajun Seasoning			|	53				|	453		|		20			  |	22.88				|	2.32
 Boston Crab Meat				|	123				|	1103		|		41			  |	51.70				|	2.38
-Schoggi Schokolade				|	49				|	365			|		9			  |	17.72				|	2.77
-Pâté chinois					|	115				|	903			|		33			  |	40.80				|	2.82
-Sir Rodney's Marmalade			|	40				|	313			|		16			  |	14.10				|	2.84
-Sirop d'érable					|	113				|	603			|		24			  |	38.74				|	2.92
-Inlagd Sill						|	112				|	805			|		31			  |	37.50				|	2.99
-Geitost							|	112				|	755			|		32			  |	34.42				|	3.25
-Spegesild						|	95				|	548			|		27			  |	26.43				|	3.59
-Genen Shouyu					|	39				|	122			|		6			  |	9.53				|	4.09
-Sasquatch Ale					|	111				|	506			|		19			  |	24.60				|	4.51
-NuNuCa Nuß-Nougat-Creme			|	76				|	318			|		18			  |	16.80				|	4.52
-Valkoinen suklaa				|	65				|	235			|		10			  |	13.06				|	4.98
-Queso Manchego La Pastora		|	86				|	344			|		14			  |	15.90				|	5.41
-Laughing Lumberjack Lager		|	52				|	184			|		10			  |	8.95				|	5.81
-Gustaf's Knäckebröd				|	104				|	348			|		14			  |	16.39				|	6.35
-Röd Kaviar						|	101				|	293			|		14			  |	13.91				|	7.26
-Grandma's Boysenberry Spread	|	120				|	301			|		12			  |	15.20				|	7.89
---------------------------------------------------------------------------------------------------------------------------
+Schoggi Schokolade				|	49				|	365		|		9			  |	17.72				|	2.77
+Pâté chinois					|	115				|	903		|		33			  |	40.80				|	2.82
+Sir Rodney's Marmalade				|	40				|	313		|		16			  |	14.10				|	2.84
+Sirop d'érable					|	113				|	603		|		24			  |	38.74				|	2.92
+Inlagd Sill					|	112				|	805		|		31			  |	37.50				|	2.99
+Geitost						|	112				|	755		|		32			  |	34.42				|	3.25
+Spegesild					|	95				|	548		|		27			  |	26.43				|	3.59
+Genen Shouyu					|	39				|	122		|		6			  |	9.53				|	4.09
+Sasquatch Ale					|	111				|	506		|		19			  |	24.60				|	4.51
+NuNuCa Nuß-Nougat-Creme				|	76				|	318		|		18			  |	16.80				|	4.52
+Valkoinen suklaa				|	65				|	235		|		10			  |	13.06				|	4.98
+Queso Manchego La Pastora			|	86				|	344		|		14			  |	15.90				|	5.41
+Laughing Lumberjack Lager			|	52				|	184		|		10			  |	8.95				|	5.81
+Gustaf's Knäckebröd				|	104				|	348		|		14			  |	16.39				|	6.35
+Röd Kaviar					|	101				|	293		|		14			  |	13.91				|	7.26
+Grandma's Boysenberry Spread			|	120				|	301		|		12			  |	15.20				|	7.89
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Выводы по 7-заданию:
 
